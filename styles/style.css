@@ -1,0 +1,28 @@
+.centrer{
+    text-align: center;
+}
+div{
+    padding : 0.2%;
+}
+#grille{
+    margin: auto;
+    background-image : radial-gradient(white, yellow);
+    min-height: 10px;
+    min-width: 10px;
+    border-spacing : 5px;
+    border-color: rgb(194, 194, 194);
+    border-style: solid;
+}
+td{
+    width: 20px;
+    height: 20px;
+}
+td.intact{
+  background-color: rgb(6, 153, 6);
+}
+td.brule{
+    background-color: rgb(128, 19, 0);
+}
+td.cendre{
+    background-color: rgb(122, 122, 122);
+}
